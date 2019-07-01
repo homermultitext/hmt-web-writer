@@ -29,14 +29,15 @@ lazy val crossed = crossProject(JSPlatform, JVMPlatform).in(file("."))
 	libraryDependencies ++= Seq(
 		"org.scala-js" %% "scalajs-stubs" % scalaJSVersion % "provided",
 		"org.scalatest" %%% "scalatest" % "3.0.1" % "test",
+
 		"edu.holycross.shot.cite" %%% "xcite" % "4.0.2",
 		"edu.holycross.shot" %%% "ohco2" % "10.12.5",
 		"edu.holycross.shot" %%% "scm" % "6.1.3",
 		"edu.holycross.shot" %%% "citeobj" % "7.3.2",
 		"edu.holycross.shot" %%% "citerelations" % "2.4.0",
-		"org.scalatest" %%% "scalatest" % "3.0.1" %  "test",
-
+    "org.homermultitext" %% "hmt-textmodel" % "6.0.1",
     "edu.furman.classics" %%% "citewriter" % "1.0.2"
+
 	),
 ).
 jvmSettings(
