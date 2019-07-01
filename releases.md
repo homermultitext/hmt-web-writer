@@ -1,3 +1,3 @@
 # Releases of the `hmtwebwriter` library
 
-No releases yet.
+**1.0.0**: initial release, displaying all text in Leiden-convention formatting of diplomatic reading
